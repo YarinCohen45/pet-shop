@@ -1,0 +1,30 @@
+.Pet-Shop {
+    font-weight: bold;
+}
+
+.new-page {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    height: 100vh;
+    padding: 20px;
+    transition: all 0.3s ease-out;
+    transform: translateY(100vh);
+}
+
+.new-page.show {
+    transform: translateY(0);
+}
+
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: 0;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 2000;
+}  

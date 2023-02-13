@@ -1,0 +1,13 @@
+.Container_add-item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100vw;
+  align-items: center;
+}
+
+.Form_add-item {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
